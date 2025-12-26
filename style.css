@@ -1,0 +1,48 @@
+h1{
+color:orange;
+size:100px;
+align:center;
+}
+h3{
+color:red;
+}
+div{
+box-shadow:5px 5px 10px black;
+ gap: 10px; 
+}
+one {
+  display: flex;     
+  gap: 30px;
+}
+
+
+
+
+.offers {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+
+.one {
+  height: 300px;
+  width: 300px;
+  border: 2px solid black;
+  background-color: lightpink;
+  text-align: center;
+}
+
+/* Image inside offer */
+.one img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+
+.one p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
